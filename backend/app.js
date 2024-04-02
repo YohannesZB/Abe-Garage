@@ -10,10 +10,11 @@
             connectionLimit: 10,
             password: 'demoapp',
             user: 'demoapp',
-            host: '127.0.0.1',
+            host: '127.0.0.1', 
             database: 'demoapp',
       }
       // Create the connection to the database 
+      
 const connection = mysql.createConnection(dbConfig);
 // Connect to the database 
 connection.connect(function (err) {
